@@ -1,16 +1,53 @@
-# React + Vite
+## E-commerce Admin Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based Single Page Application (SPA) for managing an e-commerce store. This portal allows administrators to view products, add new products, update product details, and search for products. Built using React, React Router, and plain CSS for styling.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Landing Page – Overview of the e-commerce store.
 
-## React Compiler
+2. Products Page – View all products in a responsive grid.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+3. Add Product Page – Add new products via a form.
 
-## Expanding the ESLint configuration
+4. Update Product – Admin can edit product details such as price.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+5. Search Functionality – Dynamically search for products.
+
+6. Responsive Design – Works on mobile, tablet, and desktop.
+
+7. State Management – Uses React hooks (useState, useContext, useRef).
+
+8. Client-side Routing – Powered by react-router-dom.
+
+9. Unit Testing – Tests written with Vitest and React Testing Library.
+
+## Technologies
+React – Frontend library for building UI components.
+React Router – For client-side routing.
+Vite – Development server and build tool.
+JSON Server – Simulated backend (db.json) for data persistence.
+Vitest & React Testing Library – For unit and integration tests.
+CSS – Plain CSS for styling 
+
+## Setup & Run
+1. Clone the repository
+git clone <your-repo-url>
+cd ecommerce-admin
+
+2. Install dependencies
+npm install
+
+3. Start the development server
+npm run dev
+
+4. Open the app in your browser at:
+http://localhost:5179/
+
+5. Run unit tests.
+npm run test
+
+## References
+React Documentation
+React Router Documentation
+Vitest Documentation
